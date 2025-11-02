@@ -98,7 +98,7 @@ async function generateWithVertexAI(prompt) {
           'Content-Type': 'application/json',
           'Authorization': `Bearer ${accessToken}`
         },
-        timeout: 30000
+        timeout: 1200000
       });
 
       console.log(` Model ${modelName} succeeded`);
